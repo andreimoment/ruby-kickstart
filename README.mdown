@@ -46,12 +46,12 @@ It consists of six sessions, all of which have common features:
   
   A recommended workflow would be: 
   
-  - open the challenge file in a text editor
-  - run the tests in the terminal: `rake 1:3` will run the test on exercise 3 in session 1
-  - code, save the file
-  - run the tests again
-  - code / run the tests until they all pass
-  
+  * open the challenge file in a text editor
+  * run the tests in the terminal: `rake 1:3` will run the test on exercise 3 in session 1
+  * code, save the file
+  * run the tests again
+  * code / run the tests until they all pass
+
   To run the tests, make sure you have the rspec gem installed, and your prompt is in the `ruby-kickstart` folder.
   
   **Solved & Specs**
@@ -115,7 +115,21 @@ What you'll need to use it
    - [**git**](http://help.github.com/git-installation-redirect) lets you download our changes without overwriting your work. Good installation instructions at (http://help.github.com/git-installation-redirect)
    - [**A text editor**: SublimeText](http://www.sublimetext.com/3) cross-platform, unlimited trial until you love it so much you buy it.
    
+ 
+ Installation
+ ============
+ 
  To install Ruby on Windows, use the [RubyInstaller](http://rubyinstaller.org/)
+ 
+ To install rspec after you install ruby, open a terminal and run *gem*, ruby's package manager:
+ 
+ `gem install rspec`
+ 
+ If you are running this on a network protected by an aggressive/invasive firewall, you may get security errors detecting issues with SSL. In this case, you may run:
+ 
+ `gem install rspec --source=http://rubygems.org`
+ 
+ This will override the secure access to the package repository with an unprotected link.
  
 Age
 ===
