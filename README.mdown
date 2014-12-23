@@ -43,7 +43,15 @@ It consists of six sessions, all of which have common features:
   of Absolute Java by Walter Savitch, which is probably my favourite CS book (for beginners), it was exceptionally well done,
   and one was taken from Learn to Program by Chris Pine, a book to teach programming to absolute beginners, using Ruby.
   The rest were spawned out of my own brain, or from real world situations that I have found myself in.
-
+  
+  A recommended workflow would be: 
+  
+  - open the challenge file in a text editor
+   - run the tests in the terminal
+  - code, save the file
+  - run the tests again
+  - code / run the tests until they all pass
+  
   **Solved & Specs**
   -------------------
   Along with challenges, each session provides solutions to its challenges and
@@ -103,9 +111,9 @@ What you'll need to use it
    - [**Rake** version 0.8.7+](http://rubygems.org/gems/rake) see if you have it by typing "gem list" at the command line, we use it to apply the tests
    - [**RSpec** version 2.0+](http://rubygems.org/gems/rspec) currently we use this for testing
    - [**git**](http://help.github.com/git-installation-redirect) lets you download our changes without overwriting your work. Good installation instructions at (http://help.github.com/git-installation-redirect)
-   - [**A text editor**][SublimeText](http://www.sublimetext.com/3)
+   - [**A text editor**: SublimeText](http://www.sublimetext.com/3) cross-platform, unlimited trial until you love it so much you buy it.
    
- How to install Ruby on Windows: [RubyInstaller](http://rubyinstaller.org/)
+ To install Ruby on Windows, use the [RubyInstaller](http://rubyinstaller.org/)
  
 Age
 ===
