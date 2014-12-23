@@ -31,11 +31,11 @@ It consists of six sessions, all of which have common features:
   Existence of examples is intermittent. They are full Ruby programs that demonstrate the material taught in the notes.
   You can run them on your own and modify them to experiment with the ideas they demonstrate.
 
-  **Quizzes (Feel free to skip) **
+  **Quizzes (Feel free to skip)**
   -----------
   Each session has an associated quiz available on the website. The quizzes test that you understood the material for the session.
 
-  **Challenges (The most important part!) **
+  **Challenges (The most important part!)**
   --------------
   Challenges are found in each session. They provide fun programming exercises for you to work through,
   so you have something to work on that utilizes the session's information. Challenges are taken
